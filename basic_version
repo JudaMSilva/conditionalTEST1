@@ -1,0 +1,14 @@
+print (f'This code will add two numbers. ')
+print (f'Each number typed needs to be between 1 and 10. ')
+first_input_number = int(input('Type the first number: '))
+while (first_input_number < 1) or (first_input_number > 10):
+    if (first_input_number <1) or (first_input_number > 10):
+        print (f'Invalid number. Try again, please. ')
+        first_input_number = int(input('Type the first number: '))
+second_input_number=int(input('Type the second number: '))
+while (second_input_number < 1) or (second_input_number > 10):
+    if (second_input_number < 1) or (second_input_number > 10):
+            print(f'Invalid number. Try again, please. ')
+            second_input_number = int(input('Type the second number: '))
+sum_result=first_input_number+second_input_number
+print(f'The result of {first_input_number} plus {second_input_number} was {sum_result}')
